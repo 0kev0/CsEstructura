@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\bin\Debug\net7.0\invent.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\bin\Debug\net7.0\invent.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\bin\Debug\net7.0\invent.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\bin\Debug\net7.0\invent.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\bin\Debug\net7.0\invent.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\obj\Debug\net7.0\invent.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\obj\Debug\net7.0\invent.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\obj\Debug\net7.0\invent.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\obj\Debug\net7.0\invent.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\obj\Debug\net7.0\invent.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\obj\Debug\net7.0\refint\invent.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\obj\Debug\net7.0\invent.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\obj\Debug\net7.0\invent.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\obj\Debug\net7.0\ref\invent.dll
