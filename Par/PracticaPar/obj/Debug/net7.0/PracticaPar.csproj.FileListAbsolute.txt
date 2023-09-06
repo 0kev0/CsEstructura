@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\bin\Debug\net7.0\PracticaPar.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\bin\Debug\net7.0\PracticaPar.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\bin\Debug\net7.0\PracticaPar.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\bin\Debug\net7.0\PracticaPar.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\bin\Debug\net7.0\PracticaPar.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\obj\Debug\net7.0\PracticaPar.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\obj\Debug\net7.0\PracticaPar.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\obj\Debug\net7.0\PracticaPar.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\obj\Debug\net7.0\PracticaPar.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\obj\Debug\net7.0\PracticaPar.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\obj\Debug\net7.0\refint\PracticaPar.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\obj\Debug\net7.0\PracticaPar.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\obj\Debug\net7.0\PracticaPar.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Par\PracticaPar\obj\Debug\net7.0\ref\PracticaPar.dll

@@ -1,0 +1,15 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\equiscero.csproj.AssemblyReference.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\equiscero.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\equiscero.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\equiscero.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\equiscero.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\bin\Debug\net7.0\equiscero.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\bin\Debug\net7.0\equiscero.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\bin\Debug\net7.0\equiscero.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\bin\Debug\net7.0\equiscero.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\bin\Debug\net7.0\equiscero.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\equiscero.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\refint\equiscero.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\equiscero.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\equiscero.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\New folder\equiscero\obj\Debug\net7.0\ref\equiscero.dll

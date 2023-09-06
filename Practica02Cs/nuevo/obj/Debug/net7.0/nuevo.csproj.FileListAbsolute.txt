@@ -1,0 +1,15 @@
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\bin\Debug\net7.0\nuevo.exe
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\bin\Debug\net7.0\nuevo.deps.json
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\bin\Debug\net7.0\nuevo.runtimeconfig.json
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\bin\Debug\net7.0\nuevo.dll
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\bin\Debug\net7.0\nuevo.pdb
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\nuevo.csproj.AssemblyReference.cache
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\nuevo.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\nuevo.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\nuevo.AssemblyInfo.cs
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\nuevo.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\nuevo.dll
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\refint\nuevo.dll
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\nuevo.pdb
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\nuevo.genruntimeconfig.cache
+c:\Users\kVo\Desktop\visual\Practica02Cs\nuevo\obj\Debug\net7.0\ref\nuevo.dll

@@ -1,0 +1,15 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\bin\Debug\net7.0\LAb01_RR19118.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\bin\Debug\net7.0\LAb01_RR19118.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\bin\Debug\net7.0\LAb01_RR19118.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\bin\Debug\net7.0\LAb01_RR19118.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\bin\Debug\net7.0\LAb01_RR19118.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\LAb01_RR19118.csproj.AssemblyReference.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\LAb01_RR19118.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\LAb01_RR19118.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\LAb01_RR19118.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\LAb01_RR19118.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\LAb01_RR19118.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\refint\LAb01_RR19118.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\LAb01_RR19118.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\LAb01_RR19118.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\LAb01_RR19118\obj\Debug\net7.0\ref\LAb01_RR19118.dll

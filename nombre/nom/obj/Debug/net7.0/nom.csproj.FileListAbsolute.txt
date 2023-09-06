@@ -1,0 +1,15 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\bin\Debug\net7.0\nom.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\bin\Debug\net7.0\nom.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\bin\Debug\net7.0\nom.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\bin\Debug\net7.0\nom.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\bin\Debug\net7.0\nom.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\nom.csproj.AssemblyReference.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\nom.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\nom.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\nom.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\nom.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\nom.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\refint\nom.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\nom.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\nom.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\nombre\nom\obj\Debug\net7.0\ref\nom.dll

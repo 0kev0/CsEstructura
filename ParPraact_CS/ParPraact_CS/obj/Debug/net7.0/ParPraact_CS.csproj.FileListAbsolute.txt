@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\bin\Debug\net7.0\ParPraact_CS.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\bin\Debug\net7.0\ParPraact_CS.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\bin\Debug\net7.0\ParPraact_CS.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\bin\Debug\net7.0\ParPraact_CS.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\bin\Debug\net7.0\ParPraact_CS.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\obj\Debug\net7.0\ParPraact_CS.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\obj\Debug\net7.0\ParPraact_CS.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\obj\Debug\net7.0\ParPraact_CS.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\obj\Debug\net7.0\ParPraact_CS.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\obj\Debug\net7.0\ParPraact_CS.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\obj\Debug\net7.0\refint\ParPraact_CS.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\obj\Debug\net7.0\ParPraact_CS.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\obj\Debug\net7.0\ParPraact_CS.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\ParPraact_CS\ParPraact_CS\obj\Debug\net7.0\ref\ParPraact_CS.dll

@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\bin\Debug\net7.0\Ejercicios_08_14.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\bin\Debug\net7.0\Ejercicios_08_14.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\bin\Debug\net7.0\Ejercicios_08_14.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\bin\Debug\net7.0\Ejercicios_08_14.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\bin\Debug\net7.0\Ejercicios_08_14.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\obj\Debug\net7.0\Ejercicios_08_14.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\obj\Debug\net7.0\Ejercicios_08_14.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\obj\Debug\net7.0\Ejercicios_08_14.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\obj\Debug\net7.0\Ejercicios_08_14.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\obj\Debug\net7.0\Ejercicios_08_14.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\obj\Debug\net7.0\refint\Ejercicios_08_14.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\obj\Debug\net7.0\Ejercicios_08_14.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\obj\Debug\net7.0\Ejercicios_08_14.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Ejercicios_08_14\obj\Debug\net7.0\ref\Ejercicios_08_14.dll

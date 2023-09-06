@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\bin\Debug\net7.0\Parcial_RR!9118.cs.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\bin\Debug\net7.0\Parcial_RR!9118.cs.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\bin\Debug\net7.0\Parcial_RR!9118.cs.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\bin\Debug\net7.0\Parcial_RR!9118.cs.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\bin\Debug\net7.0\Parcial_RR!9118.cs.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\obj\Debug\net7.0\Parcial_RR!9118.cs.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\obj\Debug\net7.0\Parcial_RR!9118.cs.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\obj\Debug\net7.0\Parcial_RR!9118.cs.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\obj\Debug\net7.0\Parcial_RR!9118.cs.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\obj\Debug\net7.0\Parcial_RR!9118.cs.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\obj\Debug\net7.0\refint\Parcial_RR!9118.cs.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\obj\Debug\net7.0\Parcial_RR!9118.cs.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\obj\Debug\net7.0\Parcial_RR!9118.cs.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Parcial_RR!9118.cs\Parcial_RR!9118.cs\obj\Debug\net7.0\ref\Parcial_RR!9118.cs.dll

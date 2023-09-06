@@ -1,0 +1,21 @@
+Ejercicio de excepciones en una calculadora: 
+Crea una clase Calculadora que tenga un método dividir que acepte dos números
+ como parámetros y devuelva el resultado de la división. Implementa el manejo 
+ de excepciones para evitar la división  entre cero. En caso de que se intente 
+ dividir entre cero, lanza una excepción personalizada llamada DivisionEntreCeroException
+  y captúrala utilizando un bloque try-catch.
+
+Ejercicio de matrices de tipo clase en un registro de estudiantes: Crea una
+ clase Estudiante que tenga atributos como nombre, edad y calificaciones 
+ (representado por una matriz). Luego, crea una clase RegistroEstudiantes 
+ que almacene un arreglo de objetos Estudiante. Implementa métodos para agregar
+  estudiantes al registro, calcular el promedio de calificaciones de un estudiante
+   y mostrar la información de todos los estudiantes. Utiliza las matrices de tipo
+    clase para almacenar la información de los estudiantes.
+
+Ejercicio de POO en un sistema de gestión de empleados: Crea una clase Empleado que 
+tenga atributos como nombre, salario y departamento. Luego, crea una clase GestionEmpleados
+ que almacene un arreglo de objetos Empleado. Implementa métodos para agregar empleados,
+  calcular el salario promedio de todos los empleados y mostrar la información de
+   los empleados de un departamento específico. Utiliza los conceptos de la 
+   programación orientada a objetos para modelar la relación entre las clases.

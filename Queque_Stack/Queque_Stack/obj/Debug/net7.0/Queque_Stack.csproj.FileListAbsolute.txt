@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\bin\Debug\net7.0\Queque_Stack.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\bin\Debug\net7.0\Queque_Stack.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\bin\Debug\net7.0\Queque_Stack.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\bin\Debug\net7.0\Queque_Stack.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\bin\Debug\net7.0\Queque_Stack.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\obj\Debug\net7.0\Queque_Stack.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\obj\Debug\net7.0\Queque_Stack.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\obj\Debug\net7.0\Queque_Stack.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\obj\Debug\net7.0\Queque_Stack.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\obj\Debug\net7.0\Queque_Stack.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\obj\Debug\net7.0\refint\Queque_Stack.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\obj\Debug\net7.0\Queque_Stack.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\obj\Debug\net7.0\Queque_Stack.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_Stack\Queque_Stack\obj\Debug\net7.0\ref\Queque_Stack.dll

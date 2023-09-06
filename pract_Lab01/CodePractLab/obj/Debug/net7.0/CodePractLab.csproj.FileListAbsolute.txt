@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\bin\Debug\net7.0\CodePractLab.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\bin\Debug\net7.0\CodePractLab.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\bin\Debug\net7.0\CodePractLab.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\bin\Debug\net7.0\CodePractLab.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\bin\Debug\net7.0\CodePractLab.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\obj\Debug\net7.0\CodePractLab.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\obj\Debug\net7.0\CodePractLab.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\obj\Debug\net7.0\CodePractLab.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\obj\Debug\net7.0\CodePractLab.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\obj\Debug\net7.0\CodePractLab.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\obj\Debug\net7.0\refint\CodePractLab.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\obj\Debug\net7.0\CodePractLab.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\obj\Debug\net7.0\CodePractLab.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\pract_Lab01\CodePractLab\obj\Debug\net7.0\ref\CodePractLab.dll

@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\bin\Debug\net7.0\Clase_8_29_list.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\bin\Debug\net7.0\Clase_8_29_list.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\bin\Debug\net7.0\Clase_8_29_list.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\bin\Debug\net7.0\Clase_8_29_list.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\bin\Debug\net7.0\Clase_8_29_list.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\obj\Debug\net7.0\Clase_8_29_list.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\obj\Debug\net7.0\Clase_8_29_list.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\obj\Debug\net7.0\Clase_8_29_list.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\obj\Debug\net7.0\Clase_8_29_list.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\obj\Debug\net7.0\Clase_8_29_list.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\obj\Debug\net7.0\refint\Clase_8_29_list.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\obj\Debug\net7.0\Clase_8_29_list.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\obj\Debug\net7.0\Clase_8_29_list.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Clase_8_29_list\Clase_8_29_list\obj\Debug\net7.0\ref\Clase_8_29_list.dll

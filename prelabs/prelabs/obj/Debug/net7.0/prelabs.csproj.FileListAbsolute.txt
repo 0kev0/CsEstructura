@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\bin\Debug\net7.0\prelabs.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\bin\Debug\net7.0\prelabs.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\bin\Debug\net7.0\prelabs.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\bin\Debug\net7.0\prelabs.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\bin\Debug\net7.0\prelabs.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\obj\Debug\net7.0\prelabs.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\obj\Debug\net7.0\prelabs.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\obj\Debug\net7.0\prelabs.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\obj\Debug\net7.0\prelabs.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\obj\Debug\net7.0\prelabs.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\obj\Debug\net7.0\refint\prelabs.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\obj\Debug\net7.0\prelabs.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\obj\Debug\net7.0\prelabs.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\prelabs\prelabs\obj\Debug\net7.0\ref\prelabs.dll

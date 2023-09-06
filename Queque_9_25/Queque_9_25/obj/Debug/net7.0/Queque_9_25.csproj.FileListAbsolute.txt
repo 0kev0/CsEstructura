@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\bin\Debug\net7.0\Queque_9_25.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\bin\Debug\net7.0\Queque_9_25.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\bin\Debug\net7.0\Queque_9_25.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\bin\Debug\net7.0\Queque_9_25.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\bin\Debug\net7.0\Queque_9_25.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\obj\Debug\net7.0\Queque_9_25.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\obj\Debug\net7.0\Queque_9_25.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\obj\Debug\net7.0\Queque_9_25.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\obj\Debug\net7.0\Queque_9_25.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\obj\Debug\net7.0\Queque_9_25.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\obj\Debug\net7.0\refint\Queque_9_25.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\obj\Debug\net7.0\Queque_9_25.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\obj\Debug\net7.0\Queque_9_25.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Queque_9_25\Queque_9_25\obj\Debug\net7.0\ref\Queque_9_25.dll

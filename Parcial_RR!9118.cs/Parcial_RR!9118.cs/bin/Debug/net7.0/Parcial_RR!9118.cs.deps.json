@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Parcial_RR!9118.cs/1.0.0": {
+        "runtime": {
+          "Parcial_RR!9118.cs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Parcial_RR!9118.cs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

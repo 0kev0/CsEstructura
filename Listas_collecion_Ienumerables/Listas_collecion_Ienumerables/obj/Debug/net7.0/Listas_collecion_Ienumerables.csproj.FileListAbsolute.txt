@@ -1,0 +1,14 @@
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\bin\Debug\net7.0\Listas_collecion_Ienumerables.exe
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\bin\Debug\net7.0\Listas_collecion_Ienumerables.deps.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\bin\Debug\net7.0\Listas_collecion_Ienumerables.runtimeconfig.json
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\bin\Debug\net7.0\Listas_collecion_Ienumerables.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\bin\Debug\net7.0\Listas_collecion_Ienumerables.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\obj\Debug\net7.0\Listas_collecion_Ienumerables.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\obj\Debug\net7.0\Listas_collecion_Ienumerables.AssemblyInfoInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\obj\Debug\net7.0\Listas_collecion_Ienumerables.AssemblyInfo.cs
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\obj\Debug\net7.0\Listas_collecion_Ienumerables.csproj.CoreCompileInputs.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\obj\Debug\net7.0\Listas_collecion_Ienumerables.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\obj\Debug\net7.0\refint\Listas_collecion_Ienumerables.dll
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\obj\Debug\net7.0\Listas_collecion_Ienumerables.pdb
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\obj\Debug\net7.0\Listas_collecion_Ienumerables.genruntimeconfig.cache
+c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\Listas_collecion_Ienumerables\Listas_collecion_Ienumerables\obj\Debug\net7.0\ref\Listas_collecion_Ienumerables.dll
