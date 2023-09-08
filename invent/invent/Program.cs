@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Runtime.Intrinsics.Arm;
 
 public class program
 {
@@ -41,7 +42,16 @@ public class program
 
     public static void Main()
     {
+        Console.Clear();
+
         bool seguir = true;
+        Queue<Invent> inventPEPS = new();
+        inventPEPS.Enqueue(new Invent("Arroz", 2.2, 6));
+        inventPEPS.Enqueue(new Invent("Arroz", 2.5, 6));
+        Stack<Invent> inventUEPS = new();
+        inventUEPS.Push(new Invent("Arroz", 2.5, 6));
+        inventUEPS.Push(new Invent("Arroz", 2.2, 6));
+        inventUEPS.Push(new Invent("Arroz", 1, 2));
 
         while (seguir)
         {
@@ -51,22 +61,28 @@ public class program
             switch (op)
             {
                 case 1: //PEPS**********************************************************
-                    Queue<Invent> inventUEPS = new();
-                    inventUEPS.Enqueue(new Invent("Arroz", 2.2, 6));
 
                     Console.WriteLine($"1/Ver inventario\t2/Hacer venta\t3/hacer compra");
-                    op = int.Parse(Console.ReadLine());
+                    var ops = int.Parse(Console.ReadLine());
 
                     //var invebt
-                    switch (op)
+                    switch (ops)
                     {
                         case 1:
-                            ImprimirInventarioUEPS(inventUEPS);
+                            ImprimirInventarioPEPS(inventPEPS);
 
                             break;
                         case 2: //compra
-                            ImprimirInventarioUEPS(inventUEPS);
-                            Console.WriteLine($"Que producto desea comprar ?");
+
+                            ImprimirInventarioPEPS(inventPEPS);
+                            Console.Write($"ingrese el nombre del producto: ");
+                            var name = Console.ReadLine();
+                            Console.Write($"Ingrese la cantidad a comprar");
+                            var cant = int.Parse((Console.ReadLine()));
+                            Console.Write($"ingrese el precio unitario: ");
+                            var precio = double.Parse(Console.ReadLine());
+
+                            inventPEPS.Enqueue(new Invent(name, precio, cant));
 
                             break;
                         case 3: //venta
@@ -81,14 +97,13 @@ public class program
                     break;
 
                 case 2: //UEPS**********************************************************
-                    Stack<Invent> inventarioPEPS = new();
-                    inventarioPEPS.Push(new Invent("Arroz", 2.2, 6));
+                    Console.WriteLine($"1/Ver inventario\t2/Hacer venta\t3/hacer compra");
+                    var ops2 = int.Parse(Console.ReadLine());
                     //var invebt
-                    switch (op)
+                    switch (ops2)
                     {
                         case 1:
-
-                            ImprimirInventarioPEPS(inventarioPEPS);
+                            ImprimirInventarioUEPS(inventUEPS);
 
                             break;
                         case 2: //compra
@@ -98,14 +113,53 @@ public class program
                             var precio = double.Parse(Console.ReadLine());
                             Console.WriteLine($"ingrese la cantidad a comprar");
                             var cant = int.Parse(Console.ReadLine());
-                            inventarioPEPS.Push(new Invent(nombre, precio, cant));
+                            inventUEPS.Push(new Invent(nombre, precio, cant));
                             Console.WriteLine($"-COMPRA EXITOSA-");
 
                             break;
                         case 3: //venta
-                            ImprimirInventarioPEPS(inventarioPEPS);
+                            ImprimirInventarioUEPS(inventUEPS);
                             Console.Write($"Que producto desea vender ?");
-                            var ops = int.Parse(Console.ReadLine());
+                            var opVender = Console.ReadLine();
+                            Console.WriteLine($"ingrese cantidad a comprar");
+                            var cantCompr = int.Parse(Console.ReadLine());
+
+                            var total = 0.0;
+                            while (cantCompr > 0)
+                            {
+                                
+                                Console.WriteLine(
+                                    $"Venta realizada: {inventUEPS.Peek().product}/a {inventUEPS.Peek().precio}$$/ y hay {inventUEPS.Peek().cant}"
+                                );
+                                var subtot = 0.0;
+                                Console.WriteLine($"{subtot}");
+                                
+                              //  var cantvendida = (cantCompr > inventUEPS.Peek().cant ) ?inventUEPS.Peek().cant :  inventUEPS.Peek().cant-cantCompr  ;
+                                subtot = inventUEPS.Peek().precio * subtot; //se saca subtotal de venta
+                                Console.WriteLine($"{cantCompr} - {inventUEPS.Peek().cant};");
+                                
+                                cantCompr = cantCompr - inventUEPS.Peek().cant; //se hace resta de cantidad vendida
+
+                                inventUEPS.Peek().cant = inventUEPS.Peek().cant - cantCompr; //restar producto vendido del inventario
+
+
+                                Console.WriteLine(
+                                    $"subtotal por venta {subtot}\tquedan por vender {cantCompr}"
+                                );
+
+                                if (inventUEPS.Peek().cant <= 0)
+                                {
+                                    inventUEPS.Pop();
+                                    Console.WriteLine($"borrado");
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"quedan {inventUEPS.Peek().cant} en invent");
+                                    break;
+                                }
+                                total += subtot; //se hace sumatoria de cada venta
+                            }
+                            Console.WriteLine($"Venta satisfactoria total de {total}");
 
                             break;
                         default:
@@ -126,18 +180,19 @@ public class program
         }
     }
 
-    /*****************************UEPS*********************************************/
-    private static void ImprimirInventarioUEPS(Queue<Invent> inventUEPS)
+    /*****************************UEPS/STACK*********************************************/
+    private static void ImprimirInventarioUEPS(Stack<Invent> inventUEPS)
     {
         var i = 1;
-        foreach (var item in inventUEPS)
+        List<Invent> list = inventUEPS.ToList();
+        foreach (var item in list)
         {
             Console.WriteLine($"{i} - [{item.product}]\t- [{item.precio}]\t- [{item.cant}]");
             i++;
         }
     }
 
-    private static void VerProductsUEPS(Queue<Invent> inventUEPS)
+    private static void VerProductsUEPS(Stack<Invent> inventUEPS)
     {
         for (var i = 0; i < inventUEPS.Count - 1; i++)
         {
@@ -153,18 +208,19 @@ public class program
         }
     }
 
-    /*****************************PEPS*********************************************/
-    private static void ImprimirInventarioPEPS(Stack<Invent> inventPEPS)
+    /*****************************PEPS/Queque*********************************************/
+    private static void ImprimirInventarioPEPS(Queue<Invent> inventPEPS)
     {
         var i = 1;
-        foreach (var item in inventPEPS)
+        List<Invent> list = inventPEPS.ToList();
+        foreach (var item in list)
         {
             Console.WriteLine($"{i} - [{item.product}]\t- [{item.precio}]\t- [{item.cant}]");
             i++;
         }
     }
 
-    private static void VerProductsPEPS(Stack<Invent> inventPEPS)
+    private static void VerProductsPEPS(Queue<Invent> inventPEPS)
     {
         for (var i = 0; i < inventPEPS.Count - 1; i++)
         {
