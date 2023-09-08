@@ -91,7 +91,7 @@ public class Program
             {
                 case 1: //PEPS**********************************************************
 
-                    Console.WriteLine($"1/Ver inventario total\t2/Ver inventario por producto\t3/Agregar nuevo producto\t4/hacer compra \t3/hacer VENTA");
+                    Console.WriteLine($"1/Ver inventario total\t2/Ver inventario por producto\t3/Agregar nuevo producto\t4/hacer compra \t5/hacer VENTA");
                     var ops = int.Parse(Console.ReadLine());
 
                     //var invebt
@@ -145,7 +145,21 @@ public class Program
 
                             break;
                         case 5: //venta
-                                //     VentaPEPS(inventPEPS);
+                            Console.WriteLine($"que calse de producto desea vender?");
+                            ImpreimirClaseProductoPEPS(PEPS);
+                            Console.WriteLine($"introduzca el indice del progucto a comprar: ");
+                            var tipo = int.Parse(Console.ReadLine());
+
+                            for (var i = 0; i < PEPS.Count; i++)
+                            {//por cada stack en la lista de stacks
+                                foreach (var item in PEPS[i])
+                                {
+                                    if (tipo == i)
+                                    {
+                                        VentaPEPS(PEPS[i]);
+                                    }
+                                }
+                            }
                             break;
                         default:
                             Console.WriteLine($"opcion invalida");
@@ -212,18 +226,15 @@ public class Program
                             var tipo = int.Parse(Console.ReadLine());
 
                             for (var i = 0; i < UEPS.Count; i++)
-                            {
+                            {//por cada stack en la lista de stacks
                                 foreach (var item in UEPS[i])
                                 {
                                     if (tipo == i)
                                     {
-                                       //0 VentaUEPS(UEPS[i]);
+                                        VentaUEPS(UEPS[i]);
                                     }
                                 }
                             }
-
-
-
 
                             break;
 
@@ -297,55 +308,57 @@ public class Program
         }
     }
 
-    private static void VentaUEPS(Queue<Invent> inventUEPS)
+    private static void VentaUEPS(Stack<Invent> inventUEPS)
     {
-        //  ImprimirInventarioUEPS(inventUEPS);
-        Console.Write($"Que producto desea vender ?");
-        var opVender = Console.ReadLine();
-        Console.WriteLine($"ingrese cantidad a comprar");
+
+        Console.Write($"ingrese cantidad a comprar: ");
         var cantCompr = int.Parse(Console.ReadLine());
 
         var total = 0.0;
+        var i = 1;
         while (cantCompr > 0)
         {
             var venta = (cantCompr > inventUEPS.Peek().cant) ? inventUEPS.Peek().cant : cantCompr;
-            var subtot = 0.0;
-
-            subtot = inventUEPS.Peek().precio * venta; //se saca subtotal de venta
-            total += subtot; //se hace sumatoria de cada venta
+            double subtot = inventUEPS.Peek().precio * venta;//saca subtotal de precio*cant
+            
             cantCompr = cantCompr - inventUEPS.Peek().cant; //se hace resta de cantidad vendida
             inventUEPS.Peek().cant = inventUEPS.Peek().cant - cantCompr; //restar producto vendido del inventario
-            inventUEPS.Peek().cant = (inventUEPS.Peek().cant < 0) ? 0 : inventUEPS.Peek().cant;
+            inventUEPS.Peek().cant = (inventUEPS.Peek().cant <= 0) ? 0 : inventUEPS.Peek().cant;//si se excede la cantidad disponible de asigna 0 
 
             ColorChange("azul");
-            Console.WriteLine($"Venta realizada: {inventUEPS.Peek().product} al precio de {inventUEPS.Peek().precio}_$$ quedan en inventario {inventUEPS.Peek().cant}.");
+            Console.WriteLine($"{i}>Venta realizada: [{venta}] {inventUEPS.Peek().product} al precio de {inventUEPS.Peek().precio}$$ quedan en inventario {inventUEPS.Peek().cant}.");
             ResetColor();
 
-            cantCompr = (cantCompr < 0) ? 0 : cantCompr;//si la resta da menor a 0 se asigna 0
-            Console.Write($"Subtotal por venta {Math.Round(subtot)}_$$\tquedan por vender {cantCompr}");
+            cantCompr = (cantCompr < 0) ? 0 : cantCompr;//asignar el valor que queda por vender, si la resta da menor a 0 se asigna 0
+            Console.Write($"\t\tSubtotal por venta {Math.Round(subtot,4)}_$$\t quedan por vender {cantCompr} unidades.\n");
+            Console.ReadKey();
 
-            if (inventUEPS.Peek().cant <= 0)
-            {
-                //      inventUEPS.Pop();
-                ColorChange("rojo");
-                Console.WriteLine($"borrado de inventairio");
-                ResetColor();
-            }
-            else
+            if (inventUEPS.Peek().cant > 0)
             {
                 inventUEPS.Peek().cant = inventUEPS.Peek().cant - venta;
                 inventUEPS.Peek().cant = (inventUEPS.Peek().cant < 0) ? 0 : inventUEPS.Peek().cant;
-                Console.WriteLine($"Quedan {inventUEPS.Peek().cant} en inventario a ");
-                break;
+                Console.WriteLine($"Quedan {inventUEPS.Peek().cant} en inventario a {inventUEPS.Peek().precio}");
+                Console.WriteLine($"----------------------------------------------------------------------"); Console.ReadKey();
             }
-            total += subtot; //se hace sumatoria de cada venta
+            if (inventUEPS.Peek().cant <= 0)
+            {
+                inventUEPS.Pop();
+                ColorChange("rojo");
+                Console.WriteLine($"borrado de inventairio");
 
+                Console.WriteLine($"----------------------------------------------------------------------");
+                ResetColor(); Console.ReadKey();
+            }
+
+            total += Math.Round(subtot,4); //se hace sumatoria de cada venta
+            Console.ReadKey();i++;
         }
-
-        Console.WriteLine($"----------------------------------------------------------------------");
         ColorChange("verde");
-        Console.WriteLine($"Venta satisfactoria total de {Math.Round(total)}_$$");
+        Console.WriteLine($"**********************************************************************");
+        Console.WriteLine($"Venta satisfactoria total de {Math.Round(total,3)} $$");
+        Console.WriteLine($"**********************************************************************");
         ResetColor();
+        Console.ReadKey();
     }
 
     /*****************************PEPS/Queque*********************************************/
@@ -400,52 +413,54 @@ public class Program
 
     private static void VentaPEPS(Queue<Invent> inventPEPS)
     {
-        //   ImprimirInventarioPEPS(VentaPEPS);
-        Console.Write($"Que producto desea vender ?");
-        var opVender = Console.ReadLine();
-        Console.WriteLine($"ingrese cantidad a comprar");
+        Console.Write($"ingrese cantidad a comprar: ");
         var cantCompr = int.Parse(Console.ReadLine());
 
         var total = 0.0;
+        var i = 1;
         while (cantCompr > 0)
         {
             var venta = (cantCompr > inventPEPS.Peek().cant) ? inventPEPS.Peek().cant : cantCompr;
-            var subtot = 0.0;
+            double subtot = inventPEPS.Peek().precio * venta;//saca subtotal de precio*cant
 
-            subtot = inventPEPS.Peek().precio * venta; //se saca subtotal de venta
-            total += subtot; //se hace sumatoria de cada venta
             cantCompr = cantCompr - inventPEPS.Peek().cant; //se hace resta de cantidad vendida
             inventPEPS.Peek().cant = inventPEPS.Peek().cant - cantCompr; //restar producto vendido del inventario
-            inventPEPS.Peek().cant = (inventPEPS.Peek().cant < 0) ? 0 : inventPEPS.Peek().cant;
+            inventPEPS.Peek().cant = (inventPEPS.Peek().cant <= 0) ? 0 : inventPEPS.Peek().cant;//si se excede la cantidad disponible de asigna 0 
 
             ColorChange("azul");
-            Console.WriteLine($"Venta realizada: {inventPEPS.Peek().product} al precio de {inventPEPS.Peek().precio}_$$ quedan en inventario {inventPEPS.Peek().cant}.");
+            Console.WriteLine($"{i}>Venta realizada: [{venta}] {inventPEPS.Peek().product} al precio de {inventPEPS.Peek().precio}$$ quedan en inventario {inventPEPS.Peek().cant}.");
             ResetColor();
 
-            cantCompr = (cantCompr < 0) ? 0 : cantCompr;//si la resta da menor a 0 se asigna 0
-            Console.Write($"Subtotal por venta {Math.Round(subtot)}_$$\tquedan por vender {cantCompr}");
+            cantCompr = (cantCompr < 0) ? 0 : cantCompr;//asignar el valor que queda por vender, si la resta da menor a 0 se asigna 0
+            Console.Write($"\t\tSubtotal por venta {Math.Round(subtot,4)}_$$\t quedan por vender {cantCompr} unidades.\n");
+            Console.ReadKey();
 
+            if (inventPEPS.Peek().cant > 0)
+            {
+                inventPEPS.Peek().cant = inventPEPS.Peek().cant - venta;
+                inventPEPS.Peek().cant = (inventPEPS.Peek().cant < 0) ? 0 : inventPEPS.Peek().cant;
+                Console.WriteLine($"Quedan {inventPEPS.Peek().cant} en inventario a {inventPEPS.Peek().precio}");
+                Console.WriteLine($"----------------------------------------------------------------------"); Console.ReadKey();
+            }
             if (inventPEPS.Peek().cant <= 0)
             {
                 inventPEPS.Dequeue();
                 ColorChange("rojo");
                 Console.WriteLine($"borrado de inventairio");
-                ResetColor();
-            }
-            else
-            {
-                inventPEPS.Peek().cant = inventPEPS.Peek().cant - venta;
-                inventPEPS.Peek().cant = (inventPEPS.Peek().cant < 0) ? 0 : inventPEPS.Peek().cant;
-                Console.WriteLine($"Quedan {inventPEPS.Peek().cant} en inventario a ");
-                break;
-            }
-            total += subtot; //se hace sumatoria de cada venta
 
+                Console.WriteLine($"----------------------------------------------------------------------");
+                ResetColor(); Console.ReadKey();
+            }
+
+            total += Math.Round(subtot); //se hace sumatoria de cada venta
+            Console.ReadKey();i++;
         }
 
-        Console.WriteLine($"----------------------------------------------------------------------");
         ColorChange("verde");
-        Console.WriteLine($"Venta satisfactoria total de {Math.Round(total)}_$$");
+        Console.WriteLine($"**********************************************************************");
+        Console.WriteLine($"Venta satisfactoria total de {Math.Round(total,3)} $$");
+        Console.WriteLine($"**********************************************************************");
         ResetColor();
+        Console.ReadKey();
     }
 }
