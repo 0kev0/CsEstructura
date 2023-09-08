@@ -317,10 +317,13 @@ public class Program
         var total = 0.0;
         var i = 1;
         while (cantCompr > 0)
+
+//adfesrfewsfgsdf
+
         {
             var venta = (cantCompr > inventUEPS.Peek().cant) ? inventUEPS.Peek().cant : cantCompr;
             double subtot = inventUEPS.Peek().precio * venta;//saca subtotal de precio*cant
-            
+
             cantCompr = cantCompr - inventUEPS.Peek().cant; //se hace resta de cantidad vendida
             inventUEPS.Peek().cant = inventUEPS.Peek().cant - cantCompr; //restar producto vendido del inventario
             inventUEPS.Peek().cant = (inventUEPS.Peek().cant <= 0) ? 0 : inventUEPS.Peek().cant;//si se excede la cantidad disponible de asigna 0 
