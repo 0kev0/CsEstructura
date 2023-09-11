@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿using System.Runtime.CompilerServices;
+using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.Net.Quic;
 using System.Runtime.Intrinsics.Arm;
@@ -66,6 +68,12 @@ public class Program
         PEPSpan.Enqueue(new Invent("huevo", 2, 2.15, 1));
         PEPSpan.Enqueue(new Invent("huevo", 1.4, 1.7, 3));
 
+        Dictionary<string, Queue<Invent>> PEPSdic = new Dictionary<string, Queue<Invent>>()
+        {
+            //{"ueps", new Queue<Invent>(PEPSarroz)},{"ueps", new Queue<Invent>(PEPSpan)},{"ueps", new Queue<Invent>(PEPShuevo)}
+        };
+
+
         List<Queue<Invent>> PEPScompra = new()
         {
             new(PEPSpan),
@@ -95,6 +103,12 @@ public class Program
         PEPSpan.Enqueue(new Invent("huevo", 2, 2.1, 1));
         PEPSpan.Enqueue(new Invent("huevo", 1.4, 1.15, 3));
 
+        Dictionary<string, Stack<Invent>> UEPSdic = new Dictionary<string, Stack<Invent>>()
+{
+{"huevo", new Stack<Invent>(UEPShuevo)},{"pan", new Stack<Invent>(UEPSpan)},{"arroz", new Stack<Invent>(UEPSarroz)}
+};
+
+
 
 
         List<Stack<Invent>> UEPScompra = new() {
@@ -102,11 +116,14 @@ public class Program
             new(UEPSpan),
             new(UEPShuevo)
         };
+
         List<string> resumenUEPS = new();
         List<Invent> PEPSventa = new() { };
 
         List<Invent> UEPSventa = new() { };
-        Entradas_existenciasUEPS(UEPScompra, resumenUEPS);
+
+
+        Entradas_existenciasUEPS(UEPSdic, resumenUEPS);
 
 
 
@@ -198,9 +215,9 @@ public class Program
                         case 5: //venta
                             Console.WriteLine($"que calse de producto desea vender?");
                             ImpreimirClaseProductoPEPS(PEPScompra);
-                            Console.WriteLine($"introduzca el indice del progucto a comprar: ");
+                            Console.WriteLine($"introduzca el indice del progucto a vender: ");
                             var tipo = int.Parse(Console.ReadLine());
-
+                            var exit = true;
                             for (var i = 0; i < PEPScompra.Count; i++)
                             {//por cada stack en la lista de stacks
 
@@ -208,7 +225,11 @@ public class Program
                                 {
                                     if (tipo == i)
                                     {
-                                        VentaPEPS(PEPScompra[i], PEPSventa, resumenPEPS); break;
+                                        VentaPEPS(PEPScompra[i], PEPSventa, resumenPEPS); exit = false;
+                                    }
+                                    if (exit == false)
+                                    {
+                                        break;
                                     }
                                 }
 
@@ -258,14 +279,14 @@ public class Program
                     switch (ops2)
                     {
                         case 1:
-                            ImprimirInventarioUEPS(UEPScompra);
+                            ImprimirInventarioUEPS(UEPSdic);
 
                             Console.ReadKey();
                             Console.Clear();
 
                             break;
                         case 2: //clases de productos
-                            ImpreimirClaseProductoUEPS(UEPScompra);
+                            ImpreimirClaseProductoUEPS(UEPSdic);
 
 
                             ResetColor();
@@ -285,7 +306,7 @@ public class Program
 
                             Stack<Invent> UEPSnew = new();
                             UEPSnew.Push(new(name1, precioV, precioC, cant1));
-                            UEPScompra.Add(UEPSnew);
+                            UEPSdic.Add(name1, UEPSnew);
                             resumenUEPS.Add(name1 + " -     " + precioC + "$-     " + precioV + "$-     " + cant1 + "u                                                                 ");
                             ColorChange("verde");
                             Console.WriteLine($"--------------------------------\nagregado stisfacroriamente\n--------------------------------");
@@ -295,7 +316,7 @@ public class Program
                             break;
 
                         case 4:
-                            ImpreimirClaseProductoUEPS(UEPScompra);
+                            ImpreimirClaseProductoUEPS(UEPSdic);
                             Console.WriteLine($"introduzca el indice del progucto a comprar: ");
                             var indx = int.Parse(Console.ReadLine());
 
@@ -303,15 +324,16 @@ public class Program
                             var name = Console.ReadLine();
                             Console.Write($"Ingrese la cantidad a comprar");
                             var cant = int.Parse((Console.ReadLine()));
-                            var precioC2 = double.Parse(Console.ReadLine());
                             Console.Write($"ingrese el precio unitario: ");
+                            var precioC2 = double.Parse(Console.ReadLine());
+                            Console.Write($"ingrese el precio unitario de venta: ");
                             var precioV2 = double.Parse(Console.ReadLine());
 
-                            for (var i = 0; i < UEPScompra.Count; i++)
+                            for (var i = 0; i < UEPSdic.Count; i++)
                             {
-                                if (indx == i)
+                                if (UEPSdic.ContainsKey(name))
                                 {
-                                    UEPScompra[i].Push(new(name, precioC2, precioV2, cant));
+                                    UEPSdic[name].Push(new(name, precioC2, precioV2, cant));
                                     resumenPEPS.Add(name + " -     " + precioC2 + "$-     " + precioV2 + "$-     " + cant + "u                                                                 ");
 
                                 }
@@ -325,17 +347,24 @@ public class Program
 
                         case 5:
                             Console.WriteLine($"que calse de producto desea vender?");
-                            ImpreimirClaseProductoUEPS(UEPScompra);
-                            Console.WriteLine($"introduzca el indice del progucto a comprar: ");
-                            var tipo = int.Parse(Console.ReadLine());
-
-                            for (var i = 0; i < UEPScompra.Count; i++)
+                            ImpreimirClaseProductoUEPS(UEPSdic);
+                            Console.WriteLine($"introduzca el indice del progucto a vender: ");
+                            var tipo = Console.ReadLine();
+var exit =true;
+                            for (var i = 0; i < UEPSdic.Count; i++)
                             {//por cada stack en la lista de stacks
-                                foreach (var item in UEPScompra[i])
+                                foreach (var item in UEPSdic[tipo])
                                 {
-                                    if (tipo == i)
+                                    if (UEPSdic.ContainsKey(tipo))
                                     {
-                                        VentaUEPS(UEPScompra[i], UEPSventa, resumenUEPS); break;
+                                        VentaUEPS(UEPSdic[tipo], UEPSventa, resumenUEPS); exit=false;
+                                        break;
+                                    }
+                                    if (!exit)
+                                    {
+                                        Console.WriteLine($"fin");
+                                        
+                                        break;
                                     }
                                 }
                             }
@@ -384,11 +413,11 @@ public class Program
 
                     break;
                 default:
-                            ColorChange("rojo");
-                            Console.WriteLine($"--------------------------------\n opcion invalida \n--------------------------------");
-                            Console.ReadKey();
-                            ResetColor();
-                            Console.Clear();
+                    ColorChange("rojo");
+                    Console.WriteLine($"--------------------------------\n opcion invalida \n--------------------------------");
+                    Console.ReadKey();
+                    ResetColor();
+                    Console.Clear();
                     break;
             }
 
@@ -398,47 +427,63 @@ public class Program
     }
 
     /*****************************UEPS/STACK*********************************************/
-    private static void Entradas_existenciasUEPS(List<Stack<Invent>> PEPS, List<string> resumen)
+    private static void Entradas_existenciasUEPS(Dictionary<string, Stack<Invent>> UEPSdic, List<string> resumen)
     {
 
-        for (var i = 0; i < PEPS.Count; i++)
+        foreach (KeyValuePair<string, Stack<Invent>> entry in UEPSdic)
         {
+            string key = entry.Key;
+            Stack<Invent> value = entry.Value;
 
-            foreach (var item in PEPS[i])
+            // Accede a los valores de la pila
+            foreach (var item in value)
             {
+
                 resumen.Add("                                                                                           " + item.product + " -     " + item.precioC + "$-     " + item.precioV + "$     " + item.cant + "u");
+
             }
         }
+
     }
-    private static void ImprimirInventarioUEPS(List<Stack<Invent>> inventUEPS)
+    private static void ImprimirInventarioUEPS(Dictionary<string, Stack<Invent>> UEPSdic)
     {
         var i = 1; var ii = 1;
 
         Console.WriteLine($"[-producto-]\t[-precio de compra-]\t[-precio de venta-]\t[-cantidad-");
+        Console.WriteLine($"Productos en existencia"); string nombres = "";
 
-        foreach (Stack<Invent> lista in inventUEPS)
+        foreach (KeyValuePair<string, Stack<Invent>> entry in UEPSdic)
         {
-            foreach (Invent item in lista)
-            {
-                Console.WriteLine($"{i} - [{item.product}]\t[{item.precioC} $$]\t\t-[{item.precioV} $$]\t\t- [{item.cant}]"); i++;
-            }
-            Console.WriteLine($"---------------------------------");
-            i++;
+            string key = entry.Key;
+            Stack<Invent> value = entry.Value;
 
-        }
-    }
-
-
-    private static void ImpreimirClaseProductoUEPS(List<Stack<Invent>> UEPS)
-    {
-        Console.WriteLine($"Productos en existencia");        string nombres = "";
-        for (var i = 0; i < UEPS.Count; i++)
-        {
-
-            foreach (var item in UEPS[i])
+            // Accede a los valores de la pila
+            foreach (var item in value)
             {
                 nombres += i + " " + item.product + "\n"; break;
             }
+        }
+        Console.WriteLine(nombres);
+    }
+
+
+    private static void ImpreimirClaseProductoUEPS(Dictionary<string, Stack<Invent>> UEPSdic)
+    {
+        Console.WriteLine($"Productos en existencia"); string nombres = "";
+        var i = 1;
+        foreach (KeyValuePair<string, Stack<Invent>> entry in UEPSdic)
+        {
+            string key = entry.Key;
+            Stack<Invent> value = entry.Value;
+
+            // Accede a los valores de la pila
+            foreach (var item in value)
+            {
+
+                nombres += i + " " + item.product + "\n"; break;
+
+            }
+            i++;
         }
         Console.WriteLine(nombres);
     }
@@ -497,6 +542,7 @@ public class Program
 
             total += Math.Round(subtot, 4); //se hace sumatoria de cada venta
             i++;
+
         }
         ColorChange("verde");
         Console.WriteLine($"**********************************************************************");
