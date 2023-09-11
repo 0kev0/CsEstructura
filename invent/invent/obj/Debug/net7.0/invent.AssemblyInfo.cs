@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("invent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2422152c4916fc7d2e8112cd27052edcafdbdb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("invent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("invent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
