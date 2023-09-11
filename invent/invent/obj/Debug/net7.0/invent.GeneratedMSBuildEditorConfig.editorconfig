@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = invent
-build_property.ProjectDir = c:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\invent\invent\
+build_property.ProjectDir = /Users/franrodriguez/Documents/CsEstructura/invent/invent/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
