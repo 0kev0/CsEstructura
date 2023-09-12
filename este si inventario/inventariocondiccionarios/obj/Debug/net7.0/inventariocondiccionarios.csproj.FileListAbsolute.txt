@@ -1,0 +1,14 @@
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\bin\Debug\net7.0\inventariocondiccionarios.exe
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\bin\Debug\net7.0\inventariocondiccionarios.deps.json
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\bin\Debug\net7.0\inventariocondiccionarios.runtimeconfig.json
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\bin\Debug\net7.0\inventariocondiccionarios.dll
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\bin\Debug\net7.0\inventariocondiccionarios.pdb
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\obj\Debug\net7.0\inventariocondiccionarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\obj\Debug\net7.0\inventariocondiccionarios.AssemblyInfoInputs.cache
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\obj\Debug\net7.0\inventariocondiccionarios.AssemblyInfo.cs
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\obj\Debug\net7.0\inventariocondiccionarios.csproj.CoreCompileInputs.cache
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\obj\Debug\net7.0\inventariocondiccionarios.dll
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\obj\Debug\net7.0\refint\inventariocondiccionarios.dll
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\obj\Debug\net7.0\inventariocondiccionarios.pdb
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\obj\Debug\net7.0\inventariocondiccionarios.genruntimeconfig.cache
+C:\Users\kVo\Desktop\AñO ll Cic ll\visual\Año ll Ciclo ll\CsEstructura\este si inventario\inventariocondiccionarios\obj\Debug\net7.0\ref\inventariocondiccionarios.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "inventaio_Stack_Queque/1.0.0": {
+        "runtime": {
+          "inventaio_Stack_Queque.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "inventaio_Stack_Queque/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

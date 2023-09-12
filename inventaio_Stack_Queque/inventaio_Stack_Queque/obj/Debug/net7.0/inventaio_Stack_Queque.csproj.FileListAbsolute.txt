@@ -1,0 +1,14 @@
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\bin\Debug\net7.0\inventaio_Stack_Queque.exe
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\bin\Debug\net7.0\inventaio_Stack_Queque.deps.json
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\bin\Debug\net7.0\inventaio_Stack_Queque.runtimeconfig.json
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\bin\Debug\net7.0\inventaio_Stack_Queque.dll
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\bin\Debug\net7.0\inventaio_Stack_Queque.pdb
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\obj\Debug\net7.0\inventaio_Stack_Queque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\obj\Debug\net7.0\inventaio_Stack_Queque.AssemblyInfoInputs.cache
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\obj\Debug\net7.0\inventaio_Stack_Queque.AssemblyInfo.cs
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\obj\Debug\net7.0\inventaio_Stack_Queque.csproj.CoreCompileInputs.cache
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\obj\Debug\net7.0\inventaio_Stack_Queque.dll
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\obj\Debug\net7.0\refint\inventaio_Stack_Queque.dll
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\obj\Debug\net7.0\inventaio_Stack_Queque.pdb
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\obj\Debug\net7.0\inventaio_Stack_Queque.genruntimeconfig.cache
+C:\Users\kVo\Desktop\visual\inventaio_Stack_Queque\inventaio_Stack_Queque\obj\Debug\net7.0\ref\inventaio_Stack_Queque.dll
